@@ -1,0 +1,18 @@
+[2026-05-04 19:51:04] Merge job started on clus11.hpc.local
+[2026-05-04 19:51:04] === Merge step started ===
+[2026-05-04 19:51:04] Scanning results directory: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_1/range_1.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_1/range_2.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_1/range_3.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_2/range_1.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_2/range_2.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_1.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_2.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_3.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_4.txt
+[2026-05-04 19:51:04] Files processed : 9
+[2026-05-04 19:51:04] Files skipped   : 0
+[2026-05-04 19:51:04] Unique primes   : 430
+[2026-05-04 19:51:04] Output written  : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/ALL_PRIMES.txt
+[2026-05-04 19:51:04] === Merge step finished ===
+[2026-05-04 19:51:04] Merge job finished.

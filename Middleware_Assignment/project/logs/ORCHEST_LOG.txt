@@ -14,3 +14,63 @@
 [2026-05-04 14:27:31] Unique primes   : 430
 [2026-05-04 14:27:31] Output written  : results/ALL_PRIMES.txt
 [2026-05-04 14:27:31] === Merge step finished ===
+[2026-05-04 19:42:34] ============================================================
+[2026-05-04 19:42:34] Middleware Orchestrator — START
+[2026-05-04 19:42:34] Project directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project
+[2026-05-04 19:42:34] Data directory    : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/data
+[2026-05-04 19:42:34] Results directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results
+[2026-05-04 19:42:34] Logs directory    : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/logs
+[2026-05-04 19:42:34] Scripts directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/scripts
+[2026-05-04 19:42:34] ============================================================
+[2026-05-04 19:42:34] Found 2 sample folder(s): ['sample_01', 'sample_02']
+[2026-05-04 19:42:34] --- sample_01: 2 ranges file(s) ---
+[2026-05-04 19:42:34]   ranges_1: 3 range(s)
+[2026-05-04 19:43:36] ============================================================
+[2026-05-04 19:43:36] Middleware Orchestrator — START
+[2026-05-04 19:43:36] Project directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project
+[2026-05-04 19:43:36] Data directory    : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/data
+[2026-05-04 19:43:36] Results directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results
+[2026-05-04 19:43:36] Logs directory    : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/logs
+[2026-05-04 19:43:36] Scripts directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/scripts
+[2026-05-04 19:43:36] ============================================================
+[2026-05-04 19:43:36] Found 2 sample folder(s): ['sample_01', 'sample_02']
+[2026-05-04 19:43:36] --- sample_01: 2 ranges file(s) ---
+[2026-05-04 19:43:36]   ranges_1: 3 range(s)
+[2026-05-04 19:51:00] ============================================================
+[2026-05-04 19:51:00] Middleware Orchestrator — START
+[2026-05-04 19:51:00] Project directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project
+[2026-05-04 19:51:00] Data directory    : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/data
+[2026-05-04 19:51:00] Results directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results
+[2026-05-04 19:51:00] Logs directory    : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/logs
+[2026-05-04 19:51:00] Scripts directory : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/scripts
+[2026-05-04 19:51:00] ============================================================
+[2026-05-04 19:51:00] Found 2 sample folder(s): ['sample_01', 'sample_02']
+[2026-05-04 19:51:00] --- sample_01: 2 ranges file(s) ---
+[2026-05-04 19:51:00]   ranges_1: 3 range(s)
+[2026-05-04 19:51:00]   → SLURM array job 124622 submitted (tasks 1-3, ranges file: ranges_1)
+[2026-05-04 19:51:00]   ranges_2: 2 range(s)
+[2026-05-04 19:51:00]   → SLURM array job 124623 submitted (tasks 1-2, ranges file: ranges_2)
+[2026-05-04 19:51:00] --- sample_02: 1 ranges file(s) ---
+[2026-05-04 19:51:00]   ranges_1: 4 range(s)
+[2026-05-04 19:51:00]   → SLURM array job 124624 submitted (tasks 1-4, ranges file: ranges_1)
+[2026-05-04 19:51:00] Total compute jobs submitted: 3 (124622, 124623, 124624)
+[2026-05-04 19:51:00] Merge job 124625 submitted (dependency: afterok:124622:124623:124624)
+[2026-05-04 19:51:00] ============================================================
+[2026-05-04 19:51:00] Orchestrator finished — all jobs queued. Final output: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/ALL_PRIMES.txt
+[2026-05-04 19:51:00] ============================================================
+[2026-05-04 19:51:04] === Merge step started ===
+[2026-05-04 19:51:04] Scanning results directory: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_1/range_1.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_1/range_2.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_1/range_3.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_2/range_1.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_01/ranges_2/range_2.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_1.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_2.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_3.txt
+[2026-05-04 19:51:04]   Processed: /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/sample_02/ranges_1/range_4.txt
+[2026-05-04 19:51:04] Files processed : 9
+[2026-05-04 19:51:04] Files skipped   : 0
+[2026-05-04 19:51:04] Unique primes   : 430
+[2026-05-04 19:51:04] Output written  : /home/master/mhedas/mhedas-74/urv-high-performance-distributed-computing/Middleware_Assignment/project/results/ALL_PRIMES.txt
+[2026-05-04 19:51:04] === Merge step finished ===
