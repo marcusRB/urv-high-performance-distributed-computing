@@ -33,10 +33,15 @@ def log(msg: str, log_fh) -> None:
     log_fh.write(line + "\n")
     log_fh.flush()
 
-
 def sbatch(cmd: str) -> str:
     """Run an sbatch command and return the job-id string."""
-    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    result = subprocess.run(
+        cmd,
+        shell=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        universal_newlines=True   # equivalent to text=True in Python 3.7+
+    )
     if result.returncode != 0:
         raise RuntimeError(
             f"sbatch failed (exit {result.returncode}):\n"
@@ -46,6 +51,19 @@ def sbatch(cmd: str) -> str:
     # sbatch prints "Submitted batch job <id>"
     job_id = result.stdout.strip().split()[-1]
     return job_id
+
+# def sbatch(cmd: str) -> str:
+#     """Run an sbatch command and return the job-id string."""
+#     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+#     if result.returncode != 0:
+#         raise RuntimeError(
+#             f"sbatch failed (exit {result.returncode}):\n"
+#             f"  stdout: {result.stdout.strip()}\n"
+#             f"  stderr: {result.stderr.strip()}"
+#         )
+#     # sbatch prints "Submitted batch job <id>"
+#     job_id = result.stdout.strip().split()[-1]
+#     return job_id
 
 
 def read_non_empty_lines(path: str):
