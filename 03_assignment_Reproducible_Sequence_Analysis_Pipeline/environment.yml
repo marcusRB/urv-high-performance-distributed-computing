@@ -1,0 +1,10 @@
+name: seq-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11.11
+  - snakemake=9.23.0
+  - graphviz=14.1.2
+  - python-graphviz=0.21

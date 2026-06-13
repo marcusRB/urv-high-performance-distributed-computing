@@ -1,0 +1,24 @@
+Sequence with smallest edit distance:
+NW_014478584.1
+Distance: 0
+Matches: 18
+Insertions: 0
+Deletions: 0
+Substitutions: 0
+
+Sequence with largest edit distance:
+NW_014478593.1
+Distance: 15
+Matches: 5
+Insertions: 2
+Deletions: 2
+Substitutions: 11
+
+Sequence with largest number of matches:
+NW_014478584.1
+Distance: 0
+Matches: 18
+Insertions: 0
+Deletions: 0
+Substitutions: 0
+
